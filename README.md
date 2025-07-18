@@ -1,4 +1,4 @@
-# Image Classification using ANN
+# ANN Image Classification 
 This project is a Java-based simulation platform that integrates an Artificial Neural Network (ANN) to classify images through a web interface. It is hosted on an Apache Tomcat server and designed to demonstrate ANN-based image processing in a simulation environment.
 
 ## Features
@@ -13,17 +13,17 @@ This project is a Java-based simulation platform that integrates an Artificial N
 - Internet Explorer 9 (Required due to Java Applet compatibility)
 
 ## Installation Instructions
-- Place the Simulation folder inside:
+- Place the Simulation folder inside
 ```
 \tomcat\webapps
 ```
-- Open the Java Control Panel and add the following URLs to the Exception Site List:
+- Open the Java Control Panel and add the following URLs to the Exception Site List
 ```
 http://localhost:8080/Simulation/ImageUpload
 http://localhost:8080/Simulation/sim2D.jsp
 http://localhost:8080/Simulation/simulate.jsp
 ```
-- Open Internet Explorer and navigate to:
+- Open Internet Explorer and navigate to
 ```
 http://localhost:8080/Simulation/index.jsp
 ```
